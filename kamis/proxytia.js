@@ -1,7 +1,9 @@
 var nama = 'Nop';
 var peran = 'ksatria';
 
-if (peran === ''){
+if (peran === '' && nama === ''){
+    console.log ("Nama harus diisi!");  
+} else if (peran === ''){
     console.log ("Hallo " + nama + ", pilih peranmu untuk memulai game!" );
 } else if (peran === 'ksatria'){
     console.log ("Selamat datang di Dunia Proxytia, " + nama);
@@ -13,6 +15,6 @@ if (peran === ''){
     console.log ("Selamat datang di Dunia Proxytia, " + nama);
     console.log ("Hallo Penyihir Zero " + nama + ", ciptakan keajaiban yang membantu kemenanganmu!");
 } else {
-    console.log("Nama harus diisi!);
+    console.log("Data kosong");
 }
 
