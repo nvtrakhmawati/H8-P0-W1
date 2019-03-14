@@ -1,28 +1,26 @@
 ﻿1. 	-input massa benda = 600 kg
 	- diketahui percepatan 2 m/s
-	- hitung resultan gaya
+	- hitung resultan gaya = massa * percepatan
 
 2. 	- input tahun
-	- if (tahun mod 4 equals 0 and tahun mod 100 not equals 0 ){
-		print “tahun kabisat”
-	  }
-	- else if (ahun mod 4 equals 0 and tahun mod 100 equals 0 and tahun mod 400 equals 0) {
-		print “tahun kabisat”
-	} 
-	- else {
-		print “bukan tahun kabisat”
-	}
+	- if ("tahun" div by 4 equals 0 AND "tahun" div by 100 not equals 0) OR 
+	     ("tahun" div by 4 equals 0 AND "tahun" div by 100 equals 0 AND "tahun" div by 400 equals 0)
+        tampilkan "tahun"+" adalah tahun kabisat"	
 
-3. 	- deklarasi pakaian = 0
-	- masukkan pakaian ke mesin cuci
-	   pakaian + 1
-	- nyalakan mesin cuci jika nilai pakaian = 20
+3. 	- deklarasi pakaian = 1
+	  WHILE "cucian" <=20
+             ADD cucian by 1
+    	  IF "cucian" equals to 20
+      	     DISPLAY "nyalakan mesin cuci"
+    	  ELSE
+             DISPLAY "belum penuh"
 
-4.	- jumlah siswa ada 40 orang
-	- periksa kuku siswa dari 1 sampai 40
-	- jika kuku panjang {
-		dihukum
-	  }
-	  else {
-		dipuji
-	}
+
+
+4.	- deklarasi nilai kuku
+	- deklarasi nilai kuku panjang
+	- if (kuku = kuku panjang) 
+		tampilkan "dihukum"
+	  else 
+		tampilkan "dipuji"
+	
