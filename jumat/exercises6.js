@@ -57,7 +57,7 @@ function penambahan5(){
 
 function penambahan9(){
     for (angka = 1; angka <=100; angka+= 9){
-        if (angka%9 === 0){
+        if (angka%10 === 0){
             console.log(angka + ' kelipatan 10');
         } else {
             console.log('');
