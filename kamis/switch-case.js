@@ -1,44 +1,49 @@
-var tanggal = 2;
+var tanggal = 33;
 var bulan = 2;
 var tahun = 2019;
 
+
+
 switch (bulan){
     case 1:
-        bulan = ' Januari ';
+        bulan = 'Januari';
     break;
     case 2:
-        bulan = ' Febuari ';
+        bulan = 'Febuari';
     break;
     case 3:
-        bulan = ' Maret ';
+        bulan = 'Maret';
     break;
     case 4:
-        bulan = ' April ';
+        bulan = 'April';
     break;
     case 5:
-        bulan = ' Mei ';
+        bulan = 'Mei';
     break;
     case 6:
-        bulan = ' Juni ';
+        bulan = 'Juni';
     break;
     case 7:
-        bulan = ' Juli ';
+        bulan = 'Juli';
     break;
     case 8:
-        bulan = ' Agustus ';
+        bulan = 'Agustus';
     break;
     case 9:
-        bulan = ' September ';
+        bulan = 'September';
     break;
     case 10:
-        bulan = ' Oktober ';
+        bulan = 'Oktober';
     break;
     case 11:
-        bulan = ' November ';
+        bulan = 'November';
     break;
     case 12:
-        bulan = ' Desember ';
+        bulan = 'Desember';
     break;
 }
-
-console.log( tanggal + bulan + tahun);
+if (tanggal > 31 || bulan > 12){
+    console.log('Data tidak ada')
+}else {
+    console.log( tanggal + " " + bulan + " " + tahun);
+}
