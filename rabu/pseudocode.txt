@@ -1,14 +1,14 @@
-﻿1. 	-input massa benda = 600 kg
+﻿1. 	-input massa benda equals to 600 kg
 	- diketahui percepatan 2 m/s
-	- hitung resultan gaya = massa * percepatan
+	- hitung resultan gaya equals to massa * percepatan
 
 2. 	- input tahun
 	- if ("tahun" div by 4 equals 0 AND "tahun" div by 100 not equals 0) OR 
 	     ("tahun" div by 4 equals 0 AND "tahun" div by 100 equals 0 AND "tahun" div by 400 equals 0)
         tampilkan "tahun"+" adalah tahun kabisat"	
 
-3. 	- deklarasi pakaian = 1
-	  WHILE "cucian" <=20
+3. 	- deklarasi pakaian equals to 1
+	  WHILE "cucian" les than equals to 20
              ADD cucian by 1
     	  IF "cucian" equals to 20
       	     DISPLAY "nyalakan mesin cuci"
@@ -19,7 +19,7 @@
 
 4.	- deklarasi nilai kuku
 	- deklarasi nilai kuku panjang
-	- if (kuku = kuku panjang) 
+	- if (kuku equals to kuku panjang) 
 		tampilkan "dihukum"
 	  else 
 		tampilkan "dipuji"
